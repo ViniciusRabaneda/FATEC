@@ -6,14 +6,14 @@ let lista_mestre = []
 
 while (true){
     let nome = prompt('Digite o nome: ')
-      if (nome == "f"){
+      if (nome == """){
         break
     }
 
     nomes.push(nome)
       while(true){
         let hobbie = prompt('Digite o hobbie: ')
-        if(hobbie == "f"){
+        if(hobbie == """){
           lista_mestre.push(nomes.slice())
           nomes = []  
           break
