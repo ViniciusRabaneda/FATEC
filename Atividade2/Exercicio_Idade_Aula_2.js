@@ -1,3 +1,5 @@
+/* Crie um código com Node.js que vai receber (usando Prompt-Sync) o salário da pessoa, a porcentagem de aumento e deve apresentar qual o novo salário. */
+
 import PromptSync from "prompt-sync"
 import chalk from "chalk"
 const prompt = PromptSync()

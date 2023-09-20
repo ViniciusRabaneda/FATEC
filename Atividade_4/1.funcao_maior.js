@@ -1,3 +1,5 @@
+/* Crie uma função que vai receber 3 valores e vai devolver qual é o maior desses valores. */
+
 import PromptSync from "prompt-sync"
 const prompt = PromptSync()
 const valor_1 = Number(prompt('Digite o primeiro valor: '))
