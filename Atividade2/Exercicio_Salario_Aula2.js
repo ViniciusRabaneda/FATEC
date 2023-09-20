@@ -1,3 +1,5 @@
+/* Crie um código com Node.js que recebe (usando Prompt-Sync) o ano de nascimento do usuário e em seguida calcule e exiba a idade do usuário. */
+
 import PromptSync from "prompt-sync";
 import chalk from "chalk";
 
