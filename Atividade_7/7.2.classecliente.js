@@ -10,7 +10,7 @@ class cliente {
 
     verificarCredito() {
         const minhaPromise = new Promise((resolve, reject) => {    // criar a promessa
-            if (this.renda > 20000) {   // verifica se a renda do objeto (this) é maior que 20000
+            if (this.renda > 20000) {   // verifica se a renda do objeto (this.renda) é maior que 20000
                 resolve("Credito Aprovado") // condição aceita
             }
             else {
@@ -18,12 +18,12 @@ class cliente {
             }
         },1000)
         minhaPromise
-        .then((respostaResolve) => {   // usado para captar a resposta do resolve
-            console.log(respostaResolve) // mostra a resposta do resolve ("Credito Aprovado")
+            .then((respostaResolve) => {   // usado para captar a resposta do resolve
+                console.log(respostaResolve) // mostra a resposta do resolve ("Credito Aprovado")
         })
         
-        .catch((respostaReject) => { // usado para captar a resposta do reject 
-            console.log(respostaReject)  // usado para mostrar a resposta do reject ("Credito Recusado")
+            .catch((respostaReject) => { // usado para captar a resposta do reject 
+                console.log(respostaReject)  // usado para mostrar a resposta do reject ("Credito Recusado")
         })
     }
 }
