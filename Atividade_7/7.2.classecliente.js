@@ -29,7 +29,7 @@ class cliente {
 }
 
 const cliente1 = new cliente('Jorge','4002-8922',21000,'jorginho@gmail.com') // Cria um novo usuário utilizando a classe
-const cliente2 = new cliente('Robson','9992-8922',19000,'jorginho@gmail.com') 
+const cliente2 = new cliente('Robson','9992-8922',19000,'robson@gmail.com') 
 cliente1.verificarCredito() // executa o método verificarcredito para cliente1
 cliente2.verificarCredito() // executa o método verificarcredito para cliente2
 
